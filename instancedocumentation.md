@@ -1,5 +1,3 @@
-# class7hw1
-
 # Launching an ec2 instance:
 
 - after logging into aws go to the search menu and type ec2
@@ -17,8 +15,16 @@ After security group is created then select instances in the left pane
 - paste the simple.sh
 - select launch instance
 
+Wait about a minute and paste public dns in address bar with <http://ec2-34-202-166-93.compute-1.amazonaws.com> (example)
+
+Other considerations are naming convention, make sure the convention leads you to your resources that are provisioned.
+
+example: instance1 - securitygrp1 - keypair1 - loadbalancer1 etc...
+
 Teardown:
         - In left pane select instances
         - check the instance box to highlight the instance
         - click the instance state section in the top right of the screen
         - in the drop down menu select terminate instance
+
+Security groups are free. You can keep the security group you created for future provisioning of instances....
