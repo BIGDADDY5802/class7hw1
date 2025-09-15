@@ -22,3 +22,7 @@ Teardown:
         - check the instance box to highlight the instance
         - click the instance state section in the top right of the screen
         - in the drop down menu select terminate instance
+
+        <https://docs.google.com/document/d/1XXdrHTIUsvamxpHxvyJSbRpoACp6bcomYMhEpsX9VTw/edit?tab=t.0>
+
+        With pictures ^
